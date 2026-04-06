@@ -1,0 +1,13 @@
+{
+    "final_condition": "Severe shoulder injury",
+    "final_stage": "Severe",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "Severe shoulder injury",
+    "rule_based_stage": "Severe",
+    "ml_prediction_used": false,
+    "red_flag_alert": true,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms and history suggest a severe shoulder injury. The pain is severe, and there are red flags for neurological deficits. We should consider imaging to confirm the diagnosis.",
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

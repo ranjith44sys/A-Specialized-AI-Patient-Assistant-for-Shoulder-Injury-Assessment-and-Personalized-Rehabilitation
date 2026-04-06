@@ -1,0 +1,13 @@
+{
+    "final_condition": "Subacute shoulder pain",
+    "final_stage": "Severe",
+    "decision_source": "rule-based",
+    "confidence": "High",
+    "rule_based_condition": "",
+    "rule_based_stage": "Severe",
+    "ml_prediction_used": false,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms suggest a severe case of subacute shoulder pain. The absence of red flags and the high confidence in the diagnosis indicate that further investigation is warranted. However, given the patient's history of lifting heavy objects, it's possible that this could be a rotator cuff tear or dislocation. An MRI or other imaging studies may be necessary to confirm the diagnosis and guide treatment.",
+    "red_flag_alert": true,
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

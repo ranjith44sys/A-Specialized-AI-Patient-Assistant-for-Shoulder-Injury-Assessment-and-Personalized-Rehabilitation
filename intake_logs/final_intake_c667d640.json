@@ -1,0 +1,20 @@
+{
+    "condition": "",
+    "onset": "past few days",
+    "pain_location": "outer part of shoulder",
+    "pain_severity": "3 to 4 out of 10",
+    "pain_nature": "dull ache",
+    "duration": "few days",
+    "trigger_event": "light exercise, possibly strained it",
+    "previous_history": "",
+    "functional_limitations": "slight limitation when lifting my arm",
+    "medical_history": "",
+    "red_flags": "No red flags reported",
+    "treatments_taken": "resting the shoulder, avoiding movements that trigger the pain, and applying ice",
+    "additional_notes": "",
+    "missing_fields": [
+        "condition",
+        "previous_history",
+        "medical_history"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "condition": "",
+    "onset": "after lifting a heavy object",
+    "pain_location": "shoulder joint (front and outer part, extending down upper arm)",
+    "pain_severity": "8",
+    "pain_nature": "deep inside the joint, more intense during movement, sharp when moving, throbbing sensation at rest",
+    "duration": "since the incident",
+    "trigger_event": "lifting a heavy object",
+    "previous_history": "",
+    "functional_limitations": "Movements such as rotating my shoulder, raising my arm above shoulder level, or carrying weight significantly exacerbate the pain and make it much more intense. Keeping my shoulder in a neutral position close to the body and avoiding overhead movements helps reduce the pain but any attempt to move it still causes significant discomfort.",
+    "medical_history": "",
+    "red_flags": "Possibility of dislocation or rotator cuff tear",
+    "treatments_taken": "",
+    "additional_notes": "The pain tends to worsen with activities like lifting my arm, reaching overhead, pushing or pulling objects, and even simple movements such as dressing or trying to lie on the affected side. Keeping my arm supported and at rest slightly helps reduce the discomfort. I have noticed some mild swelling around the shoulder joint and a feeling of warmth, but there is no significant bruising or major changes in skin color.",
+    "missing_fields": [
+        "condition",
+        "previous_history",
+        "medical_history",
+        "treatments_taken"
+    ]
+}

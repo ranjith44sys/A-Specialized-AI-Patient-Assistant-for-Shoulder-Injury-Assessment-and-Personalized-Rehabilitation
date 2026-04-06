@@ -1,0 +1,16 @@
+{
+    "condition": "Shoulder injury suspected to be a rotator cuff tear or ligament damage",
+    "onset": "Two weeks ago",
+    "pain_location": "Front and outer part of the shoulder, sometimes spreading down the arm",
+    "pain_severity": "9 out of 10",
+    "pain_nature": "Sharp during movement with a deep throbbing ache at rest, accompanied by weakness and tingling sensations",
+    "duration": "Persistent for the past two weeks without relief",
+    "trigger_event": "Lifting a heavy object two weeks ago",
+    "previous_history": "Mild strain due to physical activity in the past, no significant previous shoulder injuries",
+    "functional_limitations": "Difficult to lift my arm, raise it above shoulder level, or move it normally",
+    "medical_history": "No major medical conditions, overall health has been normal",
+    "red_flags": "Large painful swelling (around 8\u20139 inches), spreading sensation, numbness with tingling in the arm",
+    "treatments_taken": "Anti-inflammatory medications, rest, consultation with a doctor",
+    "additional_notes": "",
+    "missing_fields": []
+}

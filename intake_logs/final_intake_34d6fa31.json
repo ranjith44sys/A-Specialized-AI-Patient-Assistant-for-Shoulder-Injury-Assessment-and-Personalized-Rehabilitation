@@ -1,0 +1,22 @@
+{
+    "condition": "",
+    "onset": "about a week ago",
+    "pain_location": "shoulder",
+    "pain_severity": "3 to 4 out of 10",
+    "pain_nature": "increases with movement, especially when lifting my arm or reaching behind",
+    "duration": "a week",
+    "trigger_event": "likely due to a minor strain or irritation in the shoulder",
+    "previous_history": "",
+    "functional_limitations": "Activities like lifting my arm overhead, reaching behind my back, or carrying heavier objects tend to worsen the pain. Resting the shoulder and avoiding these movements seems to improve it slightly.",
+    "medical_history": "",
+    "red_flags": "",
+    "treatments_taken": "",
+    "additional_notes": "Over the past week, I\u2019ve noticed a slight reduction in my range of motion due to discomfort, and the shoulder feels a bit weaker than usual, but not significantly.",
+    "missing_fields": [
+        "condition",
+        "previous_history",
+        "medical_history",
+        "red_flags",
+        "treatments_taken"
+    ]
+}

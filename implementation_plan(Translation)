@@ -1,0 +1,35 @@
+# High-Speed, High-Fluency Clinical Translation (Few-Shot)
+
+To address the latency and "unnatural" translation quality, this plan simplifies the execution to a single-pass model call while significantly increasing output quality through **Few-Shot Clinical Prompting**.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Single-Pass Execution**: We will remove the "Refinement" pass to cut translation latency by ~50%.
+> **Few-Shot Examples**: I will provide 3-5 real-world medical question examples in the prompt to "train" the LLM contextually on its output tone.
+
+## Proposed Changes
+
+### 1. [MODIFY] [translation_utils.py](file:///e:/Medathon/translation_utils.py)
+Update the `TranslationService` to:
+
+- **Remove `_refine_translation`**: Move all "quality" logic into the primary prompt to save time.
+- **Few-Shot Context**: Inject a `FEW_SHOT_EXAMPLES` block into every translation prompt. This teaches the model the exact "Doctor-Patient" tone required for Tamil and Hindi.
+- **Hard-Coded Corrections**: Create a dictionary of "Clunky vs. Fluent" phrases to instantly swap common mistranslations without using the LLM.
+- **Regex Punctuation Cleanup**: Keep the `؟` -> `?` and other character cleaning but do it programmatically after the single LLM pass.
+
+### 2. [MODIFY] [orchestrator.py](file:///e:/Medathon/orchestrator.py)
+Ensure that we are not translating the same static strings repeatedly (e.g., headers like "1. What is happening?"). I will implement a small **Translation Cache** for identical strings.
+
+## Open Questions
+
+- Is there a specific "clunky" phrase you see most often that I should add to the hard-coded bypass list?
+
+## Verification Plan
+
+### Automated Tests
+- Performance benchmark: Measure the time for a full translation before and after removing the second pass.
+- Quality check: Verify the output against the "Few-Shot" examples for consistency.
+
+### Manual Verification
+- Test with "வலி" (Pain) and "வீக்கம்" (Swelling) scenarios to ensure the terminology is now fluent.

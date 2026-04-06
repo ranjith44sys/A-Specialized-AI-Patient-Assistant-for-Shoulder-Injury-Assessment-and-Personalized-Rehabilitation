@@ -1,0 +1,13 @@
+{
+    "final_condition": "Probable Rotator Cuff Tear or Ligament Injury",
+    "final_stage": "Severe",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "",
+    "rule_based_stage": "Severe",
+    "ml_prediction_used": false,
+    "red_flag_alert": true,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms suggest a possible rotator cuff tear or ligament injury. The pain is severe and localized to the shoulder region, with some weakness and tingling sensations. Given the duration and severity of these symptoms, it's important to seek proper diagnosis and treatment. This conclusion is based on rule-based reasoning without any assumptions.",
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

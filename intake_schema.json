@@ -1,0 +1,28 @@
+{
+    "condition": "",
+    "onset": "",
+    "pain_location": "Subscapularis (Rotator Cuff)",
+    "pain_severity": "",
+    "pain_nature": "",
+    "duration": "",
+    "trigger_event": "",
+    "previous_history": "",
+    "functional_limitations": "",
+    "medical_history": "",
+    "red_flags": "",
+    "treatments_taken": "",
+    "additional_notes": "Medical image analysis highlights possible a normal presentation without major defects and shoulder dislocation.",
+    "missing_fields": [
+        "condition",
+        "onset",
+        "pain_severity",
+        "pain_nature",
+        "duration",
+        "trigger_event",
+        "previous_history",
+        "functional_limitations",
+        "medical_history",
+        "red_flags",
+        "treatments_taken"
+    ]
+}

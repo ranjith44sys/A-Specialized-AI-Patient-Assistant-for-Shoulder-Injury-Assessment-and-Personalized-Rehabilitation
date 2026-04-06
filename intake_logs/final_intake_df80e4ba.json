@@ -1,0 +1,22 @@
+{
+    "condition": "",
+    "onset": "2 days ago",
+    "pain_location": "outer part of shoulder",
+    "pain_severity": "8",
+    "pain_nature": "sharp ache",
+    "duration": "a few days",
+    "trigger_event": "light exercise",
+    "previous_history": "",
+    "functional_limitations": "",
+    "medical_history": "",
+    "red_flags": "No red flags.",
+    "treatments_taken": "",
+    "additional_notes": "",
+    "missing_fields": [
+        "condition",
+        "previous_history",
+        "functional_limitations",
+        "medical_history",
+        "treatments_taken"
+    ]
+}

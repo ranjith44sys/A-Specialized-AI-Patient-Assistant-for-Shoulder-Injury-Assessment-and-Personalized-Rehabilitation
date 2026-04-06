@@ -1,0 +1,13 @@
+{
+    "final_condition": "Shoulder Injury",
+    "final_stage": "Subacute",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "Shoulder Injury",
+    "rule_based_stage": "Subacute",
+    "ml_prediction_used": false,
+    "red_flag_alert": true,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms and history suggest a subacute shoulder injury. The pain is severe, localized to the subscapularis (rotator cuff), and has persisted for two weeks without relief. There are no significant previous histories of shoulder injuries. The patient also reports weakness and tingling sensations in the arm. Given these findings, it's likely that this is a rotator cuff tear or ligament injury. Further evaluation with imaging may be necessary to confirm the diagnosis.",
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

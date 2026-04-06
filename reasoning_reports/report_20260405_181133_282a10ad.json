@@ -1,0 +1,13 @@
+{
+    "final_condition": "Subacute shoulder impingement syndrome",
+    "final_stage": "Moderate",
+    "decision_source": "rule-based",
+    "confidence": "High",
+    "rule_based_condition": "Shoulder impingement syndrome",
+    "rule_based_stage": "Moderate",
+    "ml_prediction_used": false,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms and physical examination findings suggest subacute shoulder impingement syndrome. The condition is moderately severe due to the duration of symptoms and the level of functional impact. No red flags were identified.",
+    "red_flag_alert": false,
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

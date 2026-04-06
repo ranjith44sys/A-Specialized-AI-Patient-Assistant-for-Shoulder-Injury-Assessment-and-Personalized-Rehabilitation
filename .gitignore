@@ -1,0 +1,11 @@
+node_modules/
+frontend/node_modules/
+
+# databases
+chroma_db/
+*.sqlite3
+
+# optional
+*.log
+.env
+__pycache__/

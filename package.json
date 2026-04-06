@@ -1,0 +1,35 @@
+{
+  "name": "medathon",
+  "version": "1.0.0",
+  "description": "A state-of-the-art Clinical Decision Support System (CDSS) designed for medical practitioners and patients. It combines rule-based clinical logic with advanced RAG (Retrieval-Augmented Generation) to provide highly accurate, evidence-based insights with **0% hallucination tolerance**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjith44sys/A-Specialized-AI-Patient-Assistant-for-Shoulder-Injury-Assessment-and-Personalized-Rehabilitation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ranjith44sys/A-Specialized-AI-Patient-Assistant-for-Shoulder-Injury-Assessment-and-Personalized-Rehabilitation/issues"
+  },
+  "homepage": "https://github.com/ranjith44sys/A-Specialized-AI-Patient-Assistant-for-Shoulder-Injury-Assessment-and-Personalized-Rehabilitation#readme",
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "axios": "^1.14.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "three": "^0.183.2",
+    "vite": "^8.0.3"
+  }
+}

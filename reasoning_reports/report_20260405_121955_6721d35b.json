@@ -1,0 +1,11 @@
+{
+    "final_condition": "Acute shoulder pain",
+    "final_stage": "Acute",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "Acute shoulder pain",
+    "rule_based_stage": "Acute",
+    "ml_prediction_used": false,
+    "red_flag_alert": true,
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

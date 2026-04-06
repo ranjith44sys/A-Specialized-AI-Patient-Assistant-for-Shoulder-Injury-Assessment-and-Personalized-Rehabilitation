@@ -1,0 +1,13 @@
+{
+    "final_condition": "Severe shoulder injury suspected to be a rotator cuff tear or ligament damage",
+    "final_stage": "Subacute",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "Severe shoulder injury suspected to be a rotator cuff tear or ligament damage",
+    "rule_based_stage": "Subacute",
+    "ml_prediction_used": false,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms suggest a severe shoulder injury likely to be a rotator cuff tear or ligament damage. The stage is subacute due to the duration and severity of the symptoms. No assumptions were made, only logical reasoning was used. Red Flag Alert status is positive.",
+    "red_flag_alert": true,
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

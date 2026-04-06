@@ -1,0 +1,20 @@
+{
+    "condition": "",
+    "onset": "few days",
+    "pain_location": "outer part of shoulder",
+    "pain_severity": "3 out of 10",
+    "pain_nature": "dull ache",
+    "duration": "gradually since light exercise",
+    "trigger_event": "increased physical activity and exercises involving the shoulder",
+    "previous_history": "No specific symptoms before onset; no previous shoulder injuries or surgeries.",
+    "functional_limitations": "slight difficulty performing some daily activities, such as lifting my arm above shoulder level, reaching for objects on high shelves, or carrying heavier items",
+    "medical_history": "Generally clear medical history with no musculoskeletal issues or chronic conditions affecting shoulders.",
+    "red_flags": "",
+    "treatments_taken": "",
+    "additional_notes": "The pain is more noticeable during arm lifting or overhead movements. There's no severe swelling or injury, but certain movements are uncomfortable.",
+    "missing_fields": [
+        "condition",
+        "red_flags",
+        "treatments_taken"
+    ]
+}

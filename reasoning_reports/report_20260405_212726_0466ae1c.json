@@ -1,0 +1,13 @@
+{
+    "final_condition": "Possible rotator cuff tear and bursitis",
+    "final_stage": "Subacute",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "Possible rotator cuff tear and bursitis",
+    "rule_based_stage": "Subacute",
+    "ml_prediction_used": false,
+    "red_flag_alert": true,
+    "validation_status": "valid",
+    "explanation": "Based on the patient's symptoms and medical history, there is a possibility of rotator cuff tear and bursitis. The condition is in the subacute stage, which means it has been present for more than two weeks but less than six months. No assumptions were made about missing data as you strictly adhered to the provided PATIENT DATA. The red flag alert is active due to the presence of severe pain and functional limitations. Validation status is 'valid'.",
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

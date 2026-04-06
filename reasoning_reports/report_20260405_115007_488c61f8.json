@@ -1,0 +1,11 @@
+{
+    "final_condition": "Subacute shoulder pain",
+    "final_stage": "Subacute",
+    "decision_source": "rule-based",
+    "confidence": "Medium",
+    "rule_based_condition": "Subacute shoulder pain",
+    "rule_based_stage": "Subacute",
+    "ml_prediction_used": false,
+    "red_flag_alert": false,
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

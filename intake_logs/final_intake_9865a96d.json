@@ -1,0 +1,16 @@
+{
+    "condition": "Severe shoulder injury",
+    "onset": "2 weeks ago",
+    "pain_location": "Shoulder",
+    "pain_severity": "8",
+    "pain_nature": "Weakness, numbness and tingling sensations in arm",
+    "duration": "Two weeks",
+    "trigger_event": "Lifting a heavy object",
+    "previous_history": "No previous shoulder injuries or surgeries.",
+    "functional_limitations": "Difficulty lifting arm, performing daily activities",
+    "medical_history": "No specific medical conditions related to the shoulder or musculoskeletal system that run in my family.",
+    "red_flags": "Numbness and tingling sensations extending down the arm",
+    "treatments_taken": "Taking anti-inflammatory medications, resting the shoulder, avoiding activities that worsen the pain",
+    "additional_notes": "",
+    "missing_fields": []
+}

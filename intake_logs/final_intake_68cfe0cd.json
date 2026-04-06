@@ -1,0 +1,16 @@
+{
+    "condition": "Possible rotator cuff tear and bursitis",
+    "onset": "About two weeks ago",
+    "pain_location": "Shoulder",
+    "pain_severity": "8 out of 10",
+    "pain_nature": "Dull ache, sharp pain with movement",
+    "duration": "Two weeks",
+    "trigger_event": "Lifting a heavy object",
+    "previous_history": "Only occasional mild shoulder strain, which usually resolved with rest.",
+    "functional_limitations": "Activities such as lifting my arm, reaching overhead, carrying heavy objects, pushing or pulling, and even routine movements like dressing or combing my hair significantly worsen the pain.",
+    "medical_history": "Do not have any known history of major shoulder injuries or other significant medical conditions.",
+    "red_flags": "Numbness, tingling sensations, and noticeable weakness in my arm",
+    "treatments_taken": "Taking anti-inflammatory medications, resting my shoulder, avoiding activities that worsen the pain",
+    "additional_notes": "",
+    "missing_fields": []
+}

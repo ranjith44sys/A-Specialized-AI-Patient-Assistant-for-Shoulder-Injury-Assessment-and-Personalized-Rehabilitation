@@ -1,0 +1,19 @@
+{
+    "condition": "",
+    "onset": "suddenly after lifting a heavy object",
+    "pain_location": "front and outer part of the shoulder, sometimes radiating down the arm",
+    "pain_severity": "8",
+    "pain_nature": "sharp during movement, deep throbbing ache at rest, accompanied by weakness and tingling sensations",
+    "duration": "past couple of weeks",
+    "trigger_event": "lifting a heavy object",
+    "previous_history": "no previous shoulder injuries or surgeries in the past",
+    "functional_limitations": "significant difficulty lifting the arm, reaching overhead, or performing basic activities like dressing or carrying items",
+    "medical_history": "",
+    "red_flags": "weakness in the arm and occasional tingling sensations, swelling around the joint, slight feeling of warmth",
+    "treatments_taken": "painkillers and resting",
+    "additional_notes": "concerned about possible rotator cuff tear or ligament injury, seeking proper diagnosis and treatment",
+    "missing_fields": [
+        "condition",
+        "medical_history"
+    ]
+}

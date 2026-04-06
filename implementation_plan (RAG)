@@ -1,0 +1,62 @@
+# Clinical Hybrid RAG System Implementation Plan
+
+This plan outlines the development of a sophisticated retrieval pipeline that combines semantic (Dense) and keyword-based (Sparse) search, followed by a neural reranker, to provide high-accuracy medical context for LLM-based insights.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The current ChromaDB was indexed using `all-MiniLM-L6-v2`. For your request to use `BAAI/bge-large-en` for Dense Retrieval, **the database must be re-indexed**. I will include a helper function to refresh the index if you provide the path to your source PDFs/chunks.
+
+> [!WARNING]
+> Reranking and Dense Retrieval (especially with large models) can be resource-intensive. I will optimize the code to use CPU-friendly variants or provide a toggle for GPU acceleration.
+
+## Proposed Changes
+
+### [NEW] [hybrid_rag.py](file:///e:/Medathon/hybrid_rag.py)
+
+#### 1. Query Builder
+- Function `build_query()`: Merges the most recent `intake_schema.json` and `reasoning_report.json`.
+- It will synthesize a comprehensive query string focusing on: `condition`, `pain_location`, `pain_nature`, and `red_flags`.
+
+#### 2. Dense Retrieval (ChromaDB)
+- Function `dense_retrieval()`: Uses `SentenceTransformer` to embed the query.
+- Fetches top 10 matches from the persistent Chroma DB.
+
+#### 3. Sparse Retrieval (BM25)
+- Function `sparse_retrieval()`: 
+  - Retrieves ALL documents from the Chroma collection.
+  - Initializes `RankBM25` using the text content.
+  - Returns top 10 keyword matches for the query.
+
+#### 4. Hybrid Merge & Reranking
+- Function `rerank_results()`:
+  - Combines results (20 candidates).
+  - Uses `cross-encoder/ms-marco-MiniLM-L-6-v2` to score the (query, doc) pairs.
+  - Selects the final top 5 most relevant clinical chunks.
+
+#### 5. LLM Synthesis (Ollama Integration)
+- Function `generate_response()`:
+  - Constructs a structured prompt with the 5 chunks + patient history.
+  - Calls the local **Qwen 2.5 7B** (Ollama) to generate medical insights and "Safe" treatment suggestions.
+
+#### 6. Structured Output & Logging
+- Function `save_outputs()`:
+  - Creates a `./rag_outputs/` directory.
+  - Saves `retrieved_docs.json` (with metadata/scores).
+  - Saves `final_report.json` (the AI's synthesis).
+
+---
+
+## Verification Plan
+
+### Automated Verification
+- **Retrieval Accuracy Test**: Provide a query about "Shoulder Pain" and verify that the top-ranked documents are indeed from the shoulder-related PDFs in `Data_sources`.
+- **Reranker Scoring**: Log the scores before and after reranking to confirm that the most semantically relevant document rises to the top.
+
+### Manual Verification
+- Check the `rag_outputs/` folder for timestamped reports.
+- Verify that the LLM response contains a "Safe Disclaimer" as per the user's rules.
+
+## Open Questions
+- **Re-indexing**: Do you want me to re-index the ChromaDB now with `BAAI/bge-large-en`, or should I stick to the existing `all-MiniLM-L6-v2` to save time/resources?
+- **Top K**: Are you satisfied with the 10+10 -> Rerank to 5 strategy, or should I retrieve more candidates first?

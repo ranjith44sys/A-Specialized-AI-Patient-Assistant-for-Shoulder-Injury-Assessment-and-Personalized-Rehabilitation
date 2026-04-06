@@ -1,0 +1,13 @@
+{
+    "final_condition": "Subacute low back pain",
+    "final_stage": "Subacute",
+    "decision_source": "rule-based",
+    "confidence": "Low",
+    "rule_based_condition": "Subacute low back pain",
+    "rule_based_stage": "Subacute",
+    "ml_prediction_used": false,
+    "red_flag_alert": false,
+    "validation_status": "valid",
+    "explanation": "This patient's symptoms are consistent with Subacute low back pain. The duration and severity of the pain suggest a subacute stage. However, this diagnosis is based on the provided data and does not account for any additional information that may be relevant.",
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}

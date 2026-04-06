@@ -1,0 +1,16 @@
+{
+    "condition": "Severe shoulder injury suspected to be a rotator cuff tear or ligament damage",
+    "onset": "About two weeks after lifting a heavy object",
+    "pain_location": "Front and side of the shoulder, sometimes extending down to the arm",
+    "pain_severity": "9/10",
+    "pain_nature": "Sharp pain during hand movements; throbbing pain during rest; frequent intense tingling sensations",
+    "duration": "About two weeks without significant relief",
+    "trigger_event": "Lifting a heavy object",
+    "previous_history": "Occasional strain due to exercise before this incident",
+    "functional_limitations": "Raising my arm or lifting the shoulder is extremely difficult",
+    "medical_history": "No major medical conditions, overall health is normal",
+    "red_flags": "Large swelling in the area (about 8-9 inches), spreading pain, numbness and tingling in the hand",
+    "treatments_taken": "Anti-inflammatory medications, resting, consulting with a doctor but no significant treatment recommended",
+    "additional_notes": "",
+    "missing_fields": []
+}

@@ -1,0 +1,13 @@
+{
+    "final_condition": "Acute shoulder pain",
+    "final_stage": "Severe",
+    "decision_source": "rule-based",
+    "confidence": "High",
+    "rule_based_condition": "",
+    "rule_based_stage": "Severe",
+    "ml_prediction_used": false,
+    "red_flag_alert": true,
+    "validation_status": "valid",
+    "explanation": "The patient's symptoms are consistent with acute shoulder pain. The severity and duration suggest a severe condition. No red flags were identified.",
+    "disclaimer": "This is a computer-generated clinical insight, not a replacement for professional medical advice."
+}
